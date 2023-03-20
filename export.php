@@ -7,9 +7,7 @@ include_once "../vendor/autoload.php";
 
 
     $sql1 = "SELECT * FROM budget_db.sp ORDER BY po_date DESC";      
-
     $query1 = mysqli_query($conn, $sql1);
-
 
 
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
